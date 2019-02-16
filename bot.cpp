@@ -258,7 +258,7 @@ void onAction(Dwarf &dwarf, int day, int hours, int minutes, ostream &log) {
     }
   }
     
-  linearChop(dwarf, log);
+  /*linearChop(dwarf, log);
     
   if (fenceW){
     if (dwarf.name() == 0){
@@ -273,7 +273,7 @@ void onAction(Dwarf &dwarf, int day, int hours, int minutes, ostream &log) {
       dwarf.start_walk(5,1);
       fenceW = true;
     }
-  }
+  }*/
     
    if (dwarf.lumber() < 250){
      walkAndChop(dwarf, closestrow, closestcol, log);  
