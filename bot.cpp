@@ -1,8 +1,3 @@
-/*Deondre De Freitas
-Course: CSCI 135
-Assignment: Project 3C*/
-//Keep running total of fences built horizantally then when a threshhold is met, switch to vertically.
-
 #include <climits>
 #include <cstdlib>
 #include <cmath>
